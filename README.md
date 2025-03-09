@@ -1,2 +1,4 @@
-# DSA210-Project
-A repo for Sabancı University DSA 210 term project.
+# Lung Cancer Data - DSA210 Project - Spring 2025
+  This project will be about investigating how data can be used to determine a patient's lung cancer status based on important medical signs. The goal is to find the most crucial elements that go into a diagnosis by looking for trends in patient data. Understanding which characteristics—such as demographics, mental difficulties, or chronic diseases—are most predictive and how a data-driven strategy might support early detection are the main goals of this study.
+
+  The strategy is simple: collect and examine relevant data, create a model to predict the risk of lung cancer, and assess its performance. Beyond mere forecasting, This project aims to find information that can aid in improving diagnostic methods and demonstrate how data science can be used in medical decision-making. 

@@ -20,7 +20,7 @@ The strategy is simple: collect and examine relevant data, create a model to pre
 ## Datasets to Use
 
 The first dataset that will be used in this project is a publicly available dataset taken from Kaggle. There are 15 columns of information contained.
-The second dataset is also a publicly available dataset taken from Kaggle. There are 20 columns of information contained.
+The second dataset is also a publicly available dataset taken from Kaggle. There are 24 columns of information contained.
 The datasets will be compared in terms of similarities and both of them will be used to make strong lung cancer prediction and level of cancer detection models.
 
 **The columns of the first dataset:**

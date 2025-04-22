@@ -12,31 +12,50 @@ The strategy is simple: collect and examine relevant data, create a model to pre
 2. **Feature Selection and Importance Analysis:** Identify the most significant features that contribute to lung cancer prediction.
 3. **Compare Machine Learning Algorithms:** Experiment with different classification models to determine the most effective approach for accurate diagnosis.
 4. **Performance Evaluation:** Assess the model using performance metrics such as accuracy, precision, recall, F1-score, and AUC-ROC to ensure reliability in classification.
+5. **Dataset Comparison:** Analyze and compare the two datasets using the similar columns of informations.
+6. **Getting Valuable Results:** Create models using the two datasets and predict if a patient has a cancer or not.
 
 ---
 
-## Dataset to Use
+## Datasets to Use
 
-The dataset that will be used in this project is a publicly available dataset taken from Kaggle. There are 16 columns of information contained. As an addition to this dataset, the project will contain newer patient/person data and similar datasets (if found).
+The first dataset that will be used in this project is a publicly available dataset taken from Kaggle. There are 15 columns of information contained.
+The second dataset is also a publicly available dataset taken from Kaggle. There are 20 columns of information contained.
+The datasets will be compared in terms of similarities and both of them will be used to make strong lung cancer prediction and level of cancer detection models.
 
-**The columns:**
-- **Gender:** Male or Female (M or F, string)
+**The columns of the first dataset:**
+- **Gender:** Male or Female (M or F, categorical)
+- **Age:** Number (numerical)
+- **Smoking:** Yes or No (2 or 1, categorical)
+- **Yellow fingers:** Yes or No (2 or 1, categorical)
+- **Peer Pressure:** Yes or No (2 or 1, categorical)
+- **Chronic Disease:** Yes or No (2 or 1, categorical)
+- **Fatigue:** Yes or No (2 or 1, categorical)
+- **Allergy:** Yes or No (2 or 1, categorical)
+- **Wheezing:** Yes or No (2 or 1, categorical)
+- **Alcohol:** Yes or No (2 or 1, categorical)
+- **Coughing:** Yes or No (2 or 1, categorical)
+- **Shortness of Breath:** Yes or No (2 or 1, categorical)
+- **Swallowing Difficulty:** Yes or No (2 or 1, categorical)
+- **Chest pain:** Yes or No (2 or 1, categorical)
+- **Lung Cancer:** Yes or No (true or false, categorical)
+
+**The columns of the second dataset:**
 - **Age:** Number (integer)
+- **Gender:** Male of Female (2 or 1, categorical)
+- **Air Pollution:** Yes or No (2 or 1, integer)
+- **Alcohol use:** Yes or No (2 or 1, integer)
+- **Dust Allergy:** Yes or No (2 or 1, integer)
+- **Occupational Hazards:** Yes or No (2 or 1, integer)
+- **Genetic Risk:** Yes or No (2 or 1, integer)
+- **Chronic Lung Disease:** Yes or No (2 or 1, integer)
+- **Balanced Diet:** Yes or No (2 or 1, integer)
+- **Obesity:** Yes or No (2 or 1, integer)
 - **Smoking:** Yes or No (2 or 1, integer)
-- **Yellow fingers:** Yes or No (2 or 1, integer)
-- **Peer Pressure:** Yes or No (2 or 1, integer)
-- **Chronic Disease:** Yes or No (2 or 1, integer)
-- **Fatigue:** Yes or No (2 or 1, integer)
-- **Allergy:** Yes or No (2 or 1, integer)
-- **Wheezing:** Yes or No (2 or 1, integer)
-- **Alcohol:** Yes or No (2 or 1, integer)
-- **Coughing:** Yes or No (2 or 1, integer)
-- **Shortness of Breath:** Yes or No (2 or 1, integer)
-- **Swallowing Difficulty:** Yes or No (2 or 1, integer)
+- **Passive Smoker:** Yes or No (2 or 1, integer)
 - **Chest pain:** Yes or No (2 or 1, integer)
-- **Lung Cancer:** Yes or No (true or false, boolean)
-
-Further information about the dataset will be given with increased information.
+- **Coughing of Blood:** Yes or No (2 or 1, integer)
+- **Fatigue:** Yes or No (true or false, boolean)
 
 ---
 
